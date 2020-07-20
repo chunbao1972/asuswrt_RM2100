@@ -42,7 +42,7 @@
 
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-PLATFORM_ROUTER:=
+PLATFORM_ROUTER:=RM2100
 
 export HND_ROUTER := $(shell pwd | sed 's/.*hnd/y/g')
 # declare the init var here. Don't include router's arch related var here due to it will break the multi-arch rules
